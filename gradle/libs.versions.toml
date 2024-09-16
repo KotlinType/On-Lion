@@ -29,6 +29,9 @@ splashScreen = "1.0.1"
 appcompat = "1.7.0"
 material = "1.12.0"
 activityKtx = "1.9.2"
+jetbrainsKotlinJvm = "2.0.0"
+
+kotlinxCoroutine = "1.8.1"
 
 [libraries]
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltVersion" }
@@ -60,6 +63,7 @@ splashScreen = { module = "androidx.core:core-splashscreen", version.ref = "spla
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
+kotlinx-coroutine = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutine" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -68,3 +72,4 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hiltVersion" }
 google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }

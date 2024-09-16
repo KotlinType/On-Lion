@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "On-Lion"
 include("dark:app")
 include(":common-ui")
+include(":core:domain")
